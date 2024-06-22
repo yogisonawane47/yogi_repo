@@ -1,0 +1,170 @@
+/* p{
+    font-family: 'Courier New', Courier, monospace;
+font-size:20px;
+font-weight:bold;
+font-style:italic;
+text-align:center;
+text-decoration:underline;
+line-height:1.5;
+letter-spacing: 0.05em;
+word-spacing: 0.01em;
+} */
+
+@font-face{
+    font-family: "roboto"
+    src: url("font/Roboto-Regular.ttf")format('truetype');
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+h1
+
+#built{
+    color: crimson;
+}
+
+#rgb{
+    color:rgb(240,250,10);
+}
+
+#rgba{
+    color: #ff0000;
+}
+
+#hsl{
+    color:hsl(0,50%,50%) 
+}
+
+#hsla{
+    color: hsl(0,50%,5%));
+}
+
+#box{
+    height: 100px;
+    width:200px;
+    padding-top: 30px;
+    border: 50px solid red;
+    margin:30px;
+    box-shadow: 10px 10px;
+    box-sizing: border-box;
+}
+
+.dotted{
+    border: 2px dotted midnightblue;
+}
+.dotte{
+    border: 2px dashed aqua;
+}
+
+.solid{
+    border: 4px solid red;
+}
+.doubble{
+    border: 4px solid red;
+}
+
+
+.groov{
+      border-width: 10px;
+      border: 20px groove red;
+}
+.ridge{
+    border-width: 10px;
+    border: 20px ridge red;
+}
+.insert{
+    border-width: 10px;
+    border: 20px inset red;
+
+}
+.outset{
+
+    border-width: 10px;
+    border: outset red;
+}
+
+
+div{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 400px;
+}
+
+.new{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 50px;
+    border: 10px solid red;
+}
+
+
+h3{
+    text-shadow: 3px 3px #ff0000;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: magenta;
+    background-image: url("bo.jpg"); 
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+img{
+    float: left;
+}
+
+.new1{
+    float: left;
+    padding: 10px;
+    border: 8px solid red;
+    
+}
+
+.new2{
+   
+    padding: 10px;
+    border: 9px solid maroon;
+    
+}
+
+.new3{
+   float: left; 
+    padding: 10px;
+    border: 13px solid maroon;
+    
+}
+
+.new4{
+   
+    padding: 10px;
+    border: 18px solid maroon;
+    clear: left;
+}
+
+.relative{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+
+.absolute{
+    position: relative;
+    top: 80px;
+   left: 10px;
+   width: 600px;
+   height: 50px;
+    border: 3px solid aquamarine;
+   
+}
+
