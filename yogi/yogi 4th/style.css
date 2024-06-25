@@ -1,0 +1,12 @@
+h1::first-letter{
+    color:crimson;
+}
+p::first-line{
+    color:cyan;
+}
+p::before{
+    content: "welcome"
+}
+p::after{
+    
+}
