@@ -105,6 +105,60 @@ select * from product_details limit 5;
 
 select * from product_details limit 4;
 
-select * from product_details limit 2,5;  do ke age ke pach recoard
+select * from product_details limit 2,5; 
+
+show databases;  
+
+show tables;
+
+use companyys;
+
+show create table product_details;
+
+help contents;
+
+select * from product_details;
+
+insert into product_details values(8,null,null,2000);
+
+select prod_name,prod_price from product_details where prod_name is null;
+
+select prod_name,prod_price from product_details where prod_name=null;
+
+select prod_name,prod_price from product_details where prod_name is not null;
+
+select * from product_details;
+
+
+select prod_name,prod_cat,
+case
+	when prod_price>=20000 then "10% discount"
+	when prod_price>=20000 then "5% discount"
+    when prod_price>=3000 then "2% discount"
+     when prod_price>=2000 then "2% discount"
+    else prod_price
+end as 'discount'
+from product_details;
+
+
+select min(prod_price) from product_details;
+
+select max(prod_price) from product_details;
+
+select avg(prod_price) from product_details;
+
+
+create table emp(empid int primary key , emp_name varchar(20), emp_city varchar (20), emp_salary decimal(10,2));
+
+alter table emp add contact varchar (20);
+
+desc emp;
+
+alter table emp add emp_design bigint after emp_name;
+
+desc emp;
+
+
+
 
 
