@@ -1,0 +1,12 @@
+h1{
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+body{
+    background-color: crimson;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
